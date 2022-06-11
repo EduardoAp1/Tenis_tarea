@@ -10,6 +10,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.tenis.R
+import com.example.tenis.adapter.TenisAdapter
 import com.example.tenis.databinding.FragmentTenisBinding
 import com.example.tenis.viewmodel.TenisViewModel
 
@@ -34,6 +35,16 @@ class TenisFragment : Fragment() {
         binding.addTenis.setOnClickListener{
             findNavController().navigate(R.id.action_nav_tenis_to_addTenisFragment)
         }
+
+        //ACTIVAR EL RECICLADOR..
+        val tenisAdapter = TenisAdapter()
+        val reciclador = binding.reciclador
+        reciclador.adapter =  tenisAdapter
+        reciclador.layoutManager =  LinearLayoutManager(requireContext())
+        tenisViewModel.getAllData.observe(viewLifecycleOwner){
+            tenisAdapter.setData(it)
+        }
+
         return binding.root
     }
 
