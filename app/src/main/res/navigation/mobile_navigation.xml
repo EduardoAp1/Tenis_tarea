@@ -3,13 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_tenis">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.example.tenis.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/nav_tenis"
+        android:name="com.example.tenis.ui.tenis.TenisFragment"
+        android:label="@string/menu_tenis"
+        tools:layout="@layout/fragment_tenis" />
 
     <fragment
         android:id="@+id/nav_gallery"
@@ -22,4 +22,9 @@
         android:name="com.example.tenis.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/addTenisFragment"
+        android:name="com.example.tenis.AddTenisFragment"
+        android:label="fragment_add_tenis"
+        tools:layout="@layout/fragment_add_tenis" />
 </navigation>
