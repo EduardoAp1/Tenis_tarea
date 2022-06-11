@@ -9,7 +9,11 @@
         android:id="@+id/nav_tenis"
         android:name="com.example.tenis.ui.tenis.TenisFragment"
         android:label="@string/menu_tenis"
-        tools:layout="@layout/fragment_tenis" />
+        tools:layout="@layout/fragment_tenis" >
+        <action
+            android:id="@+id/action_nav_tenis_to_addTenisFragment"
+            app:destination="@id/addTenisFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_gallery"
@@ -24,7 +28,11 @@
         tools:layout="@layout/fragment_slideshow" />
     <fragment
         android:id="@+id/addTenisFragment"
-        android:name="com.example.tenis.AddTenisFragment"
+        android:name="com.example.tenis.ui.tenis.AddTenisFragment"
         android:label="fragment_add_tenis"
-        tools:layout="@layout/fragment_add_tenis" />
+        tools:layout="@layout/fragment_add_tenis" >
+        <action
+            android:id="@+id/action_addTenisFragment_to_nav_tenis"
+            app:destination="@id/nav_tenis" />
+    </fragment>
 </navigation>

@@ -17,4 +17,14 @@
     <string name="menu_slideshow">Slideshow</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="msg_marca">Nombre de la marca</string>
+    <string name="msg_modelo">Nombre del modelo</string>
+    <string name="msg_talla">Talla</string>
+    <string name="msg_precio">Precio del producto</string>
+    <string name="bt_addTeni">Agregar Teni</string>
+    <string name="bt_updateTeni">Actualizar Teni</string>
+    <string name="msg_tenis_added">Teni agregado</string>
+    <string name="msg_data">Faltan datos</string>
+    <string name="msg_tenis_update">Teni actualizado</string>
 </resources>

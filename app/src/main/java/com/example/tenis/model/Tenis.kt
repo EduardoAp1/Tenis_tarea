@@ -19,4 +19,6 @@ data class Tenis(
     val talla: String?,
     @ColumnInfo(name="Precio")
     val precio: String?,
+    @ColumnInfo(name="rutaImagen")
+    val rutaImagen: String?,
 ) : Parcelable

@@ -1,14 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AddTenisFragment">
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".AddTenisFragment" >
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <EditText
+        android:id="@+id/et_marca"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/msg_marca"
+        android:inputType="textPersonName" />
 
-</FrameLayout>
+    <EditText
+        android:id="@+id/et_modelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/msg_modelo"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_talla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/msg_talla"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_precio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/msg_precio"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/bt_agregar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_addTeni" />
+</LinearLayout>

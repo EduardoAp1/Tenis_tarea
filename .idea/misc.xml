@@ -5,7 +5,15 @@
       <map>
         <entry key="..\:/Documentos/tarea/app/src/main/res/drawable/ic_logoff.xml" value="0.2985" />
         <entry key="..\:/Documentos/tarea/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Documentos/tarea/app/src/main/res/layout/activity_principal.xml" value="0.36666666666666664" />
+        <entry key="..\:/Documentos/tarea/app/src/main/res/layout/app_bar_principal.xml" value="0.36666666666666664" />
         <entry key="..\:/Documentos/tarea/app/src/main/res/layout/content_principal.xml" value="0.36666666666666664" />
+        <entry key="..\:/Documentos/tarea/app/src/main/res/layout/fragment_add_tenis.xml" value="0.36666666666666664" />
+        <entry key="..\:/Documentos/tarea/app/src/main/res/layout/fragment_gallery.xml" value="0.36666666666666664" />
+        <entry key="..\:/Documentos/tarea/app/src/main/res/layout/fragment_slideshow.xml" value="0.36666666666666664" />
+        <entry key="..\:/Documentos/tarea/app/src/main/res/layout/fragment_tenis.xml" value="0.36666666666666664" />
+        <entry key="..\:/Documentos/tarea/app/src/main/res/layout/nav_header_principal.xml" value="0.36666666666666664" />
+        <entry key="..\:/Documentos/tarea/app/src/main/res/layout/tenis_fila.xml" value="0.35260416666666666" />
         <entry key="..\:/Documentos/tarea/app/src/main/res/menu/activity_main_drawer.xml" value="0.36666666666666664" />
         <entry key="..\:/Documentos/tarea/app/src/main/res/menu/principal.xml" value="0.36666666666666664" />
       </map>
